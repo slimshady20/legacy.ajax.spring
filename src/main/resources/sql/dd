@@ -1,0 +1,10 @@
+CREATE TABLE travel(
+seq_no  VARCHAR(30) PRIMARY KEY,
+area_no VARCHAR(30),
+stat_nm VARCHAR(30),
+stat_cd	VARCHAR(30),
+statln_nm	VARCHAR(30),
+statout_no	VARCHAR(30),
+etc_st VARCHAR(30),
+url_st VARCHAR(30)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
