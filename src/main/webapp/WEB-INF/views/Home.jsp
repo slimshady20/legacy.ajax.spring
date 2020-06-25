@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<jsp:include page="Header.jsp"/>
-<div>
+
+<jsp:include page="common/Header.jsp"/>
+<div> 
         
             <div class="my-2">
                
@@ -30,8 +31,8 @@ h1 {letter-spacing: 6px}
 <script>
 $('#join').click(function(){
 	console.log('이동화면 진입')
-	alert("<%=application.getContextPath()%>");
-	location.href= "${application.getContextPath()}/web/user/join/form"
+	alert("${context}");
+	location.href= "${context}/user/join/form"
 })
 </script>
 

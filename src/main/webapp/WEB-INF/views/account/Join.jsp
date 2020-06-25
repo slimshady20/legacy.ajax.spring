@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<jsp:include page="Header.jsp"/>
+<jsp:include page="../common/Header.jsp"/>
 
   <form class="modal-content" action="/action_page.php">
     <div class="container">
